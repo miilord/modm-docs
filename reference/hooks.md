@@ -62,4 +62,4 @@ func (df *DefaultField) AfterFind(ctx context.Context) {}
 
 :::
 
-Hooks have specific usage constraints. For more details, please refer to [CRUD Operations](/en/crud/insert) and [FAQ](/en/faq).
+Hooks have specific usage constraints. For more details, please refer to [CRUD Operations](/crud/insert) and [FAQ](/faq).

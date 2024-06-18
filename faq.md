@@ -48,7 +48,7 @@ This approach is less practical and adds an additional query operation. Therefor
 
 ## About BeforeFind
 
-As mentioned in the [hooks tutorial](/en/reference/hooks), model hooks require passing the model into methods to trigger them. Methods like Find/Delete do not require passing the model, so `BeforeFind` and `BeforeDelete` are unlikely to be implemented.
+As mentioned in the [hooks tutorial](/reference/hooks), model hooks require passing the model into methods to trigger them. Methods like Find/Delete do not require passing the model, so `BeforeFind` and `BeforeDelete` are unlikely to be implemented.
 
 ## About ReplaceOne
 

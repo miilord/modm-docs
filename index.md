@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /en/guide/what-is-modm
+      link: /guide/what-is-modm
     - theme: alt
       text: API Examples
-      link: /en/crud/insert
+      link: /crud/insert
 
 features:
   - title: No Need to Disrupt Existing Code
