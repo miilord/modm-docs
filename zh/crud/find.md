@@ -16,7 +16,7 @@ fmt.Println(user.Name) // gooooo
 FindOne 会触发钩子`AfterFind`
 :::
 
-方法二：如果你想使用结构体进行查找
+### 方法二：如果你想使用结构体进行查找
 
 ::: details 显示代码
 

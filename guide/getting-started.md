@@ -58,13 +58,12 @@ func main() {
 	}
 	db.Users.InsertOne(ctx, &User{Name: "gooooo", Age: 6})
 
-	// WARNING: To query for documents containing zero values, use bson.M, bson.D, or a map.
 	// FindOne() returns (*User, error)
-	user, _ := db.Users.FindOne(ctx, &User{Name: "gooooo"})
+	user, _ := db.Users.FindOne(ctx, bson.M{"name": "gooooo"})
 	fmt.Println(user.Age) // 6
 
 	// Find() returns ([]*User, error)
-	users, _ := db.Users.Find(ctx, &User{Age: 6})
+	users, _ := db.Users.Find(ctx, bson.M{"age": 6})
 }
 ```
 

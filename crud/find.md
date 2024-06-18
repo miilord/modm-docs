@@ -16,7 +16,7 @@ fmt.Println(user.Name) // gooooo
 FindOne will trigger the `AfterFind` hook.
 :::
 
-Alternative Method: If you prefer to use a struct for the query
+### Alternative Method: If you prefer to use a struct for the query
 
 ::: details Show Code
 
